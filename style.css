@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1&family=Work+Sans&display=swap');
+
+p {
+  font-family: 'Work Sans';
+  color: #FFFFFF;
+  font-size: 16px;
+}
+  
+h1 {
+  font-family: 'M PLUS 1';
+  color: #FFFFFF;
+  font-size: 48px;
+  line-height: 0.6;
+}
+    
+h2 {
+  font-family: 'M PLUS 1';
+  color: #FFFFFF;
+  font-size: 24px;
+  line-height: 0.6;
+}
+
+/* i wonder where this column and row code must've come from... */
+.column {
+  float: left;
+  width: calc(250px);
+  padding: 5px;
+}
+@media screen and (max-width: 1200px) {
+  .column {
+    width: 100%;
+  }
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* that's right, stackoverflow! copy and paste ftw */
+
+a {
+  color: #DDEEFF;
+  text-decoration: none;
+  text-decoration: italic;
+}
+
+body {
+  background-color:#363941;
+  padding-top:120px;
+  padding-left:calc(25% - 80px);
+  padding-right:calc(25% - 80px);
+}
+
+hr {
+  height: 3px;
+  color: #51545d;
+  background-color: #51545d;
+  border-width: 0;
+}
