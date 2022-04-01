@@ -45,10 +45,11 @@ a {
 }
 
 body {
-  background-color:#363941;
-  padding-top:120px;
-  padding-left:calc(25% - 80px);
-  padding-right:calc(25% - 80px);
+    background-color: #363941;
+    padding-top: 120px;
+    padding-left: calc(25% - 80px);
+    padding-right: calc(25% - 80px);
+    image-rendering: pixelated;
 }
 
 hr {
