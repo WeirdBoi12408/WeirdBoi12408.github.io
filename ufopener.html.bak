@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>ufopener</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <p><a href="index.html">back to homepage</a></p>
+  <hr>
+  
+  <h1>ufopener</h1>
+  <h2>TSS-TSD-TSS</h2>
+  
+  <img src="images/ufopener/ufopener.png" alt="board thingy">
+
+  <hr>
+  <h2>about opener</h2>
+  <p>This opener invented by <a href="https://ch.tetr.io/u/ufo_dude"><i>ufo dude</i></a> is an opener that is used for fun. It can only be used on <a href="https://tetr.io"><i>tetr.io</i></a>, as it has a 180 kick.</p>
+  <hr>
+  
+  <h2>bag 1</h2>
+  <img src="images/ufopener/ufopenerbag1-1.png">
+  
+  <h2>bag 2</h2>
+  <div class="row">
+    <div class="column"><p>L first</p><img src="images/ufopener/ufopenerbag2-1.png"></div>
+    <div class="column"><p>J first</p><img src="images/ufopener/ufopenerbag2-2.png"></div>
+  </div>
+
+  <h2>bag 3</h2>
+  <p>The goal of bag 3 is to block the yellow squares so the player can preform the 180 spins.</p>
+  <img src="images/ufopener/ufopenerbag3g.png"
+  <p></p>
+  <p>Examples:</p>
+  
+  <div class="row">
+    <div class="column"><img src="images/ufopener/ufopenerbag3-1.png"></div>
+    <div class="column"><img src="images/ufopener/ufopenerbag3-2.png"></div>
+    <div class="column"><img src="images/ufopener/ufopenerbag3-3.png"></div>
+  </div>
+  
+  <hr>
+  
+  <h2>ufopener in action</h2>
+  
+  <img src="images/ufopener/ufopener.gif" alt="animation thingy">
+  
+  <hr>
+  
+  <h2>ufopener v2</h2>
+  <p>this version of ufopener is too high, and requires too many pieces. only do this on newbies.</p>
+  
+  <hr>
+  
+  <p>the first 2 bags are the same as in the regular ufopener</p>
+  
+  <hr>
+  
+  <h2>bag 3</h2>
+  <p>you must have these pieces on the right</p>
+  <img src="images/ufopener/ufopenerv2bag3-1.png">
+  
+  <p>you can also do this</p>
+  <img src="images/ufopener/ufopenerv2bag3-4.png">
+  
+  <p>it's rare that you'll be able to make the whole setup with a single bag</p>
+  <div class="row">
+	<div class="column">
+	  <img src="images/ufopener/ufopenerv2bag3-2.png">
+	</div>
+    <div class="column">
+	  <img src="images/ufopener/ufopenerv2bag3-3.png">
+	</div>
+  </div>
+  
+  <p>it's even more rare to be able to set it up like this</p>
+  <div class="row">
+	<div class="column">
+	  <img src="images/ufopener/ufopenerv2bag3-6.png">
+	</div>
+    <div class="column">
+	  <img src="images/ufopener/ufopenerv2bag4-8.png">
+	</div>
+  </div>
+  
+  <p>it's easier if you can do this</p>
+  <img src="images/ufopener/ufopenerv2bag3-7.png">
+  
+  <p>but if you can't do that a common way to do it is like this, usually you'll have to give up trying to build it.</p>
+  <img src="images/ufopener/ufopenerv2bag3-5.png">
+  
+  <p>remember to do this:</p>
+  <img src="images/ufopener/ufopenerv2bag4.png">
+  <p>otherwise this will happen:</p>
+  <img src="images/ufopener/ufopenerv2bag4-a1.gif">
+  
+  
+  
+</body>
+
+</html>
