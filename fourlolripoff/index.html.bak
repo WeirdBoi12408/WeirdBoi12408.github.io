@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>four.lol ripoff</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <p style="font-size:8px"><a href="../index.html">back to about me</a></p>
+  <h1>four.lol ripoff site</h1>
+  <h2>created by <a href="https://ch.tetr.io/u/weirdboi12408">WeirdBoi12408</a></h2>
+  <hr>
+
+  <div class="row">
+    <div class="column" style="display:none;"><a href="sadopener.html">
+      
+      <h2>sad opener</h2>
+      <img src="images/sadopener/sadopenercolored.png" alt="sadopener">
+      <p>useless opener that gives 3 TSDs and 2 TSSs</p>
+    
+    </a></div>
+    
+    <div class="column"><a href="weirdspin.html">
+
+      <h2>weirdspin</h2>
+      <img src="images/weirdspin/weirdspincolored.png" alt="weirdspin">
+      <p>TSS-TST opener with a 180 kick</p>
+    
+    </a></div>
+
+    <div class="column"><a href="ufopener.html">
+
+      <h2>ufopener</h2>
+      <img src="images/ufopener/ufopenercolored.png" alt="ufopener">
+      <p>TSS-TSD-TSS opener with 180 kicks</p>
+    
+    </a></div>
+    
+  </div>
+  
+</body>
+</html>
