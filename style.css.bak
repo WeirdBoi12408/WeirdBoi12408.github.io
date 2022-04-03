@@ -22,7 +22,6 @@ h2 {
 
 /* i wonder where this column and row code must've come from... */
 .column {
-  vertical-align: text-bottom;
   float: left;
   width: calc(250px);
   padding: 5px;
@@ -46,10 +45,11 @@ a {
 }
 
 body {
-  background-color:#363941;
-  padding-top:120px;
-  padding-left:calc(25% - 80px);
-  padding-right:calc(25% - 80px);
+    background-color: #363941;
+    padding-top: 120px;
+    padding-left: calc(25% - 80px);
+    padding-right: calc(25% - 80px);
+    image-rendering: pixelated;
 }
 
 hr {
