@@ -2,6 +2,7 @@
 <html>
 
 <head>
+  <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>weirdspin</title>
@@ -42,6 +43,7 @@
   <p>Alternate version of the weirdspin, also invented by <a href="https://ch.tetr.io/u/weirdboi12408"><i>WeirdBoi12408</i></a>, which adds an extra TSS. Purely for fun, as it's almost useless.</p>
   
   <hr>
+  
   <h2>bag 1</h2>
   <p>same first bag as the regular weirdspin</p>
   <img src="images/weirdspin/weirdspinbag1-1.png">

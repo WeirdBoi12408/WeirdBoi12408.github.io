@@ -2,6 +2,7 @@
 <html>
 
 <head>
+  <link rel="shortcut icon" type="image/png" href="images/favicon"/>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>ufopener</title>
@@ -34,8 +35,9 @@
 
   <h2>bag 3</h2>
   <p>The goal of bag 3 is to block the yellow squares so the player can preform the 180 spins.</p>
-  <img src="images/ufopener/ufopenerbag3g.png"
-  <p></p>
+  <img src="images/ufopener/ufopenerbag3g.png">
+  <br>
+  
   <p>Examples:</p>
   
   <div class="row">

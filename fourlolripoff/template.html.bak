@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>[insert title]</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <p><a href="index.html">back to homepage</a></p>
+  <hr>
+  
+  <h1>opener</h1>
+  <h2>insert t-spin data</h2>
+  
+  <img src="images/directory" alt="board thingy">
+
+  <hr>
+  <h2>about opener</h2>
+  <p>This opener invented by <a href="https://ch.tetr.io/u/weirdboi12408"><i>WeirdBoi12408</i></a> is an opener to use against low-rated opponents to look cool. (lol) I didn't even check if it works because you have to use up 5 T-pieces while stacking on the side of the board.</p>
+  <hr>
+  <h2>bag 1</h2>
+  
+  <hr>
+  
+  <h2>opener in action</h2>
+  
+  <img src="images/directory" alt="animation thingy">
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="shortcut icon" type="image/png" href="images/favicon"/>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>sad opener</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <p><a href="index.html">back to homepage</a></p>
+  <hr>
+  
+  <h1>sad opener</h1>
+  <h2>TSS-TSD-TSD-TSS-TSD</h2>
+  
+  <img src="images/sadopener/sadopener.png" alt="board thingy">
+
+  <hr>
+  <h2>about opener</h2>
+  <p>This opener invented by <a href="https://ch.tetr.io/u/weirdboi12408"><i>WeirdBoi12408</i></a> is an opener to use against low-rated opponents to look cool. (lol) I didn't even check if it works because you have to use up 5 T-pieces while stacking on the side of the board.</p>
+  <hr>
+  <h2>bag 1</h2>
+
+  <img src="images/sadopener/sadopenerbag1.png" alt="board thingy">
+
+  <h2>bag 2</h2>
+
+  <img src="images/sadopener/sadopenerbag2.png" alt="board thingy">
+
+  <h2>bag 3</h2>
+  <div class="row">
+    <div class="column">'<img src="images/sadopener/sadopenerbag3-1.png" alt="board thingy"> </div>
+    <div class="column"><img src="images/sadopener/sadopenerbag3-2.png" alt="board thingy"></div>
+    <div class="column"><img src="images/sadopener/sadopenerbag3-3.png" alt="board thingy"></div>
+  </div>
+  
+  <hr>
+  
+  <h2>sad opener in action</h2>
+  
+  <img src="images/sadopener/sadopener.gif" alt="animation thingy">
+</body>
+
+</html>
