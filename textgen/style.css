@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+body {
+	padding-top: 60px;
+	padding-left: 60px;
+	padding-right: 60px;
+	font-family: 'IBM Plex Sans';
+}
+
+input {
+	font-family: inherit;
+	font-size: 20px;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+button {
+	font-family: inherit;
+}
+
+option {
+	font-family: inherit;
+}
+
+select {
+	font-family: inherit;
+}
