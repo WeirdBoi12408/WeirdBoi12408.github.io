@@ -70,6 +70,14 @@ function thething() {
 		']': ['████','░░██','░░██','████'],
 		':': ['░░','██','░░','██'],
 		';': ['░░██','░░░░','░░██','██░░'],
+	},{
+		'z': '▜▖',
+		'l': '▗▟',
+		'o': '██',
+		's': '▗▛',
+		'j': '▙▖',
+		'i': '▄▄▄',
+		't': '▗▙',
 	}]
 	
 	if (textmode == 0) {
@@ -84,6 +92,12 @@ function thething() {
 		output = ''
 		for (k = 0; k < 4; k++) {
 			output += outputs[k] + '<br>'
+		}
+	} else if (textmode == 1) {
+		string = string.toLowerCase()
+		output = ''
+		for (i = 0; i < string.length; i++) {
+			output += data[1][string[i]] + ' '
 		}
 	} else {
 	
@@ -102,6 +116,7 @@ function thething() {
 	
 	<select id='textmode'>
 		<option value='3x4'>3x4</option>
+		<option value='teto'>teto</option>
 	</select>
 	<br><br>
 	<input type="text" id="textinput" value="" size=50>
