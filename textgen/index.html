@@ -70,6 +70,8 @@ function thething() {
 		']': ['████','░░██','░░██','████'],
 		':': ['░░','██','░░','██'],
 		';': ['░░██','░░░░','░░██','██░░'],
+		"'": ['██','██','░░','░░'],
+		'"': ['██░░██','██░░██','░░░░░░','░░░░░░'],
 	},{
 		'z': '▜▖',
 		'l': '▗▟',
@@ -78,6 +80,10 @@ function thething() {
 		'j': '▙▖',
 		'i': '▄▄▄',
 		't': '▗▙',
+	},{'viii': 'ⅷ','VIII': 'Ⅷ','kcal': '㎉','a.m.': '㏂','p.m.': '㏘','K.K.': '㏍','iii': 'ⅲ','vii': 'ⅶ','xii': 'ⅻ','III': 'Ⅲ','VII': 'Ⅶ','XII': 'Ⅻ','FAX': '℻','PTE': '㉐','LTD': '㋏','hPa': '㍱','bar': '㍴','cal': '㎈','kHz': '㎑','MHz': '㎒','GHz': '㎓','THz': '㎔','kPa': '㎪','MPa': '㎫','GPa': '㎬','rad': '㎭','Co.': '㏇','log': '㏒','mil': '㏕','mol': '㏖','PPM': '㏙','gal': '㏿','erg': '㋍','ffi': 'ﬃ','ffl': 'ﬄ','sss': '🝜','ii': 'ⅱ','iv': 'ⅳ','ix': 'ⅸ','xi': 'ⅺ','da': '㍲','II': 'Ⅱ','IV': 'Ⅳ','VI': 'Ⅵ','IX': 'Ⅸ','XI': 'Ⅺ','Pt': '₧','Rs': '₨','Dp': '₯','AU': '㍳','oV': '㍵','pc': '㍶','dm': '㍷','IU': '㍺','pA': '㎀','nA': '㎁','mA': '㎃','KB': '㎅','MB': '㎆','GB': '㎇','pF': '㎊','nF': '㎋','mg': '㎎','kg': '㎏','Hz': '㎐','fm': '㎙','nm': '㎚','mm': '㎜','cm': '㎝','km': '㎞','Pa': '㎩','ps': '㎰','ns': '㎱','ms': '㎳','pV': '㎴','nV': '㎵','mV': '㎷','kV': '㎸','MV': '㎹','pW': '㎺','nW': '㎻','mW': '㎽','kW': '㎾','MW': '㎿','Bq': '㏃','cc': '㏄','cd': '㏅','dB': '㏈','Gy': '㏉','ha': '㏊','in': '㏌','KM': '㏎','kt': '㏏','lm': '㏐','ln': '㏑','lx': '㏓','mb': '㏔','pH': '㏗','PR': '㏚','sr': '㏛','Sv': '㏜','Wb': '㏝','Hg': '㋌','eV': '㋎','ff': 'ﬀ','fi': 'ﬁ','fl': 'ﬂ','OO': 'Ꚙ','oo': 'ꚙ','Oy':'Ѹ','oy':'ѹ','IJ':'Ĳ','ij':'ĳ','AA':'Ꜳ','aa':'ꜳ','DZ':'Ǳ','Dz':'ǲ','dz':'ǳ','LJ':'Ǉ','Lj':'ǈ','lj':'ǉ','NJ':'Ǌ','Nj':'ǋ','nj':'ǌ','ls':'ʪ','fn':'ʩ',"L'":'Ľ',"l'":'ľ',"O'":'Ơ',"o'":'ơ',
+	},{'rad/s^2': '㎯','m/s^2': '㎨','rad/s': '㎮','C/kg': '㏆','m/s': '㎧','us': '㎲','No': '№','uA': '㎂','uF': '㎌','ug': '㎍','ul': '㎕','ml': '㎖','dl': '㎗','kl': '㎘','um': '㎛','uV': '㎶','uW': '㎼','kO': '㏀','mO': '㏁','HP': '㏋','JX':'Ԕ','jx':'ԕ','PX':'Ԗ','px':'ԗ','jb':'љ','bi':'ы','Jb':'Љ','BI':'Ы','ie':'ѥ','AO':'Ꜵ','ao':'ꜵ','AU':'Ꜷ','au':'ꜷ','AV':'Ꜹ','av':'ꜹ','3K':'Ꚅ','tf':'ʧ','ts':'ʦ','tc':'ʨ',
+	},{
+	' ':'   ',
 	}]
 	
 	if (textmode == 0) {
@@ -93,12 +99,37 @@ function thething() {
 		for (k = 0; k < 4; k++) {
 			output += outputs[k] + '<br>'
 		}
+		document.getElementById('output').style = 'font-size:10px'
 	} else if (textmode == 1) {
 		string = string.toLowerCase()
 		output = ''
 		for (i = 0; i < string.length; i++) {
 			output += data[1][string[i]] + ' '
 		}
+		document.getElementById('output').style = 'font-size:30px'
+	} else if (textmode == 2) {
+		output = string
+		keys = Object.keys(data[2])
+		keys.forEach((key, index) => {
+			output = output.replaceAll(key, data[2][key])
+		})
+		document.getElementById('output').style = 'font-size:30px'
+	} else if (textmode == 3) {
+		output = string
+		for (i = 2; i < 4; i++) {
+			keys = Object.keys(data[i])
+			keys.forEach((key, index) => {
+				output = output.replaceAll(key, data[i][key])
+			})
+		}
+		document.getElementById('output').style = 'font-size:30px'
+	} else if (textmode == 4) {
+		output = string
+		keys = Object.keys(data[4])
+		keys.forEach((key, index) => {
+			output = output.replaceAll(key, data[4][key])
+		})
+		document.getElementById('output').style = 'font-size:30px'
 	} else {
 	
 	}
@@ -117,6 +148,9 @@ function thething() {
 	<select id='textmode'>
 		<option value='3x4'>3x4</option>
 		<option value='teto'>teto</option>
+		<option value='compress'>compress</option>
+		<option value='compressbig'>compress a lot</option>
+		<option value='xpgreed'>extra xp</option>
 	</select>
 	<br><br>
 	<input type="text" id="textinput" value="" size=50>
